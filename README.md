@@ -1,6 +1,4 @@
-# altoschat
-
-One upon a time ...
+**One upon a time ...**
 ... i got some spare time, and a system connected to the X.25
 network. Soon it became more and more interesting, to start
 some sort of communication with all the hackers coming into
@@ -42,17 +40,18 @@ Feel free to call the system mentioned above and have a look to it.
 My uucp-mail-adress is:   ...!mcvax!unido!altger!korn
 Hans Korneder, DataVision, May 1987
 
-revision history:
-1.0  -  altos 586 xenix 2.5
-2.0  -  altos 3068 unixV.2
-3.0  -  altos 3068 unixV.2
-        ascii transfer only
-        rearranged the location of the named pipes
-        put to public domain
-3.1  -  altos 3068 unixV.2  29.may 1987
-        rearranged the signal-handling
-        corrected a problem with sccanf(buf,"%6d",...), that
-        caused messages starting with numers to be ignored.
-        ignore empty lines
-		do timeouts for a) the server writing to user-answer-pipes
-		b) opens to user-answer-pipes ( both caused severe problems! )
+## revision history:
+
+ - 1.0  -  altos 586 xenix 2.5
+ - 2.0  -  altos 3068 unixV.2
+ - 3.0  -  altos 3068 unixV.2
+			 - ascii transfer only
+			 - rearranged the location of the named pipes
+			 - put to public domain
+ - 3.1  -  altos 3068 unixV.2  29.may 1987
+			 - rearranged the signal-handling
+			 - corrected a problem with sccanf(buf,"%6d",...), that
+			 - caused messages starting with numers to be ignored.
+			 - ignore empty lines do timeouts for 
+				 - a) the server writing to user-answer-pipes
+				 - b) opens to user-answer-pipes ( both caused severe problems! )
